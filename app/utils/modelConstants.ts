@@ -50,3 +50,5 @@ export async function initializeModelList(): Promise<void> {
 }
 
 initializeModelList().then();
+
+export { MODEL_LIST }
